@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Background */
+body { 
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+color:#0600B9;
+background-image: url("http://img.hebus.com/hebus_2012/06/18/preview/1339971301_14017.jpg");
+	background-size:100%;
+}
+.title {
+	position:relative;
+	float: center;
+}
+.subtitle {
+	position:relative;
+	float: center;
+	
+	
