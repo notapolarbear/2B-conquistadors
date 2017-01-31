@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+img:hover {
+   background-color: #FFF893 ;
+}
+=======
+
 #wrapper {
 }
 
@@ -42,3 +47,4 @@ float: left;
 	height: 412px;
 	width: 180px;
 	margin:   20px auto;*/
+
