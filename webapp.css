@@ -1,5 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
+
 img:hover {
    background-color: #FFF893 ;
 }
+=======
+
+#wrapper {
+}
+
+#Title {
+	float: center;
+	height: 75px;
+	width: 800px;
+	margin:   20px auto;
+	border-style:solid;
+	border-color:blue;
+}
+
+#monster .health {
+	
+	float: right;
+	height: 50px;
+	width: 400px;
+	margin:   20px auto;
+	border-style:solid;
+	border-color:blue;
+	
+}
+
+
+#player .health {
+float: left;
+	height: 50px;
+	width: 400px;
+	margin:   20px auto;
+	border-style:solid;
+	border-color:blue;
+
+
+}
+
+#story {
+}
+/*float: right;
+	height: 412px;
+	width: 180px;
+	margin:   20px auto;*/
+
