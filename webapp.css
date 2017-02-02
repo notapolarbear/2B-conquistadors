@@ -47,38 +47,3 @@ float: left;
 	height: 412px;
 	width: 180px;
 	margin:   20px auto;*/
-
-/* set up the font to be used for the page */
-body {
-  font-family: tahoma; arial, sans-serif;
-  }
-
-/* set the size of the definition list <dl> and add the background image */
-#locationmap {
-  display:block; 
-  width:400px; 
-  height:240px; 
-  background:url(../images/Dolphin.jpg); 
-  position:relative;
-  }
-  /* set up the definition list <dt><a> to hold the background image for the hover state */
-#locationmap{
-  display:block; 
-  width:400px; 
-  height:0; 
-  padding-top:240px; 
-  overflow:hidden; 
-  position:absolute; 
-  left:0; 
-  top:0; 
-  background:transparent url(../images/Dolphin.jpg) no-repeat 400px 400px; 
-  cursor:default;
-  }
-  
-map area {
-}
-/* the hack for IE pre IE6 */
-* html #locationmap  {
-  height:240px;
-  he\ight:0;
-  }
