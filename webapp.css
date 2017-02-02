@@ -74,6 +74,9 @@ body {
   background:transparent url(../images/Dolphin.jpg) no-repeat 400px 400px; 
   cursor:default;
   }
+  
+map area {
+}
 /* the hack for IE pre IE6 */
 * html #locationmap  {
   height:240px;
