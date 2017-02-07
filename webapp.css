@@ -9,6 +9,9 @@ img:hover {
 #wrapper {
 }
 
+.title {
+	
+}
 #Title {
 	float: center;
 	height: 75px;
@@ -42,8 +45,9 @@ float: left;
 }
 
 #story {
-}
-/*float: right;
+
+	float: right;
 	height: 412px;
 	width: 180px;
-	margin:   20px auto;*/
+	margin: 20px auto;
+}
