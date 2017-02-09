@@ -4,7 +4,7 @@ var name = "";
 function spaceship(room) {
 	switch(room) {
 		case "galley":
-			alert("this is the galley");
+	
 			break;
 		case "cockpit":
 			alert("this is the cockpit");
