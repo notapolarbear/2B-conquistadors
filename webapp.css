@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+<<<<<<< HEAD
 img:hover {
    background-color: #FFF893 ;
 }
@@ -55,23 +56,30 @@ img:hover {
 	border-style:solid;
 	border-color:blue;
 	
+=======
+#recources {
+    background-color: #004BFF ;
+    font-size:30px;
+    border-style: groove;
+    border-radius:30px;
+    border-widows: 8px;
+    border-color: Silver;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 50px;
+    float: left;
+>>>>>>> origin/Version-1.0
 }
 
 
-#player .health {
-float: left;
-	height: 50px;
-	width: 400px;
-	margin:   20px auto;
-	border-style:solid;
-	border-color:blue;
-
-
-}
-
-#story {
-}
-/*float: right;
-	height: 412px;
-	width: 180px;
-	margin:   20px auto;*/
+#inventory {
+    background-color: #004BFF ;
+    font-size:30px;
+    border-style: groove;
+    border-radius:30px;
+    border-widows: 8px;
+    border-color: Silver;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 50px;
+    float: left;
