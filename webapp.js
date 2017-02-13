@@ -30,17 +30,23 @@ function n() {
 	alert("Your name is " + name)
 }
 
-	//add intervals
-	var metal;
-
-function myStartFunction() {
-    metal = setInterval(function(){ alertFunc("First parameter", "Second parameter"); }, 2000);
+	//add clicker for resource
+	var metal = 0;
+function metal_collector() {
+	metal ++;
+	document.getElementById("metal").value = metal;
 }
 
-function alertFunc(param1, param2) {
-    document.getElementById("demo").innerHTML += "Hello ";
-
-    document.getElementById("demo2").innerHTML = "Parameters passed to alertFunc(): <br>" 
-    + param1 + "<br>" + param2 + "<br>";
+function move(loc) {
+	switch(loc) {
+		case "cockpit":
+			// change image
+			document.getElementById("spaceship").setAttribute("src", "images/cockpit.jpg");
+			// change image map
+			document.getElementById("spaceship").setAttribute("usemap", "#CockpitMap");
+			break;
+		case "galley":
+		case "engine":
+		case "space":
+	}
 }
-

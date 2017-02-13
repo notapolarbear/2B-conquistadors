@@ -20,40 +20,40 @@
 <img id="spaceship" src="images/Dolphin.jpg" usemap="#locationmap">
 </div>
 <div id="recources">
-
-<input id="scrap" class="inventoryItem" readonly>
+<input id="metal" class="inventoryItem" readonly>
 <input id="wires" class="inventoryItem" readonly><br>
 <input id="cp" class="inventoryItem" readonly>
 <input id="plasma" class="inventoryItem" readonly><br>
 <input id="minerals" class="inventoryItem" readonly>
 <input id="mine" class="inventoryItem" readonly>
 </div>
-
- 
-<div id="health">
---------------------</div>
 <!-- This is for changing the image -->
 <p>
 </p>
-	<p>
-		<input type="button" value="Part 1" class="introduction" onClick="s('a')">
-	</p>
+<p>
+		<a href="JavaScript: metal_collector()">
+		<button><strong>Metal</strong></button></a>
+</p>
 	<p>
 		<input type="button" value="reminder" class="name" onClick="n('')">
 	</p>
-	<p>
+<p>
 	<br>
 	<br>
 	<br>
-		<button onclick="document.getElementById('spaceship').src='images/cockpit.jpg'">Cockpit</button>
+		<button onclick="move('cockpit');">Cockpit</button>
 	</p>
 	<p>
-		<button onclick="document.getElementById('spaceship').src='images/Galley.jpeg'">Galley</button>
+		<button onclick="move('galley');">Galley</button>
+	</p>
+	
+<p>
+		<button onclick="move('engine');">Engine</button>
 	</p>
 	<p>
-		<button onclick="document.getElementById('spaceship').src='images/Engine_Room.png'">Engine</button>
+		<button onclick="move('space');'">Space View</button>
 	</p>
-	<!-- Spaceship Map -->
+<!-- Spaceship Map -->
 	
 <map name="locationmap" id="locationmap">
 <area shape="rect" coords="748,466,750,468" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" /> 
