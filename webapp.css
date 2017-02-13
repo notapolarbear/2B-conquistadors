@@ -4,11 +4,39 @@
 img:hover {
    background-color: #FFF893 ;
 }
-=======
+
 
 #wrapper {
+	
 }
 
+#recources {
+	background-color: #004BFF;
+	font-size:30px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 50px;
+	float: left;
+}
+
+
+#inventory {
+	background-color: #004BFF;
+	font-size:30px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 50px;
+	float: left;
+	
+}
 #Title {
 	float: center;
 	height: 75px;
