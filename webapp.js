@@ -30,4 +30,17 @@ function n() {
 	alert("Your name is " + name)
 }
 
-	
+	//add intervals
+	var metal;
+
+function myStartFunction() {
+    metal = setInterval(function(){ alertFunc("First parameter", "Second parameter"); }, 2000);
+}
+
+function alertFunc(param1, param2) {
+    document.getElementById("demo").innerHTML += "Hello ";
+
+    document.getElementById("demo2").innerHTML = "Parameters passed to alertFunc(): <br>" 
+    + param1 + "<br>" + param2 + "<br>";
+}
+
