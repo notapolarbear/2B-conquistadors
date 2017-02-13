@@ -1,7 +1,8 @@
 # Conquistadors
 
 ## Description
-Describe your app here!
+Collector and Story mode game
+
 <!-- 
 ## FAQs
 
