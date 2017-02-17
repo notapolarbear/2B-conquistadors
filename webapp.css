@@ -1,18 +1,62 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#recources {
-    background-color: #595959 ;
-    font-size:20px;
-    border-style: groove;
-    border-radius:30px;
-    border-widows: 8px;
-    border-color: Silver;
-    padding-left: 4px;
-    padding-right: 4px;
-    height: 120px;
-    float: left;
+
+img:hover {
+   background-color: #FFF893 ;
 }
+
+
+#wrapper {
+	
+}
+
+#rescources {
+	background-color: #676666;
+	font-size: 20px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 110px;
+	float: left;
+}
+
+
+#inventory {
+	background-color: #004BFF;
+	font-size:30px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 50px;
+	float: left;
+	
+}
+#Title {
+	float: center;
+	height: 75px;
+	width: 800px;
+	margin:   20px auto;
+	border-style:solid;
+	border-color:blue;
+}
+
+#monster .health {
+	
+	float: right;
+	height: 50px;
+	width: 400px;
+	margin:   20px auto;
+	border-style:solid;
+	border-color:blue;
+	
+
 
 
 #health {

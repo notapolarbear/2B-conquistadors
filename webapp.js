@@ -40,7 +40,7 @@ function n() {
 }
 
 	//add clicker for resource
-function metal_collector() {
+function scavenge() {
 var rnd = Math.ceil(Math.random() * 6);
 	switch(rnd) {
 		case 1: // metal
