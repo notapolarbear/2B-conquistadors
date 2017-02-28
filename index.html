@@ -2,84 +2,64 @@
 <html>
 <head>
 
+
 <meta charset="UTF-8">
 <title>Web App</title>
-<!--Stylesheet-->
+
 <link rel="stylesheet" type="text/css" href="webapp.css">
-<!--JavaScript-->
+
 <script type="text/javascript" src="webapp.js"></script>
-<!--jQuery-->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
-<!--Add your HTML here-->
-<!-- Name -->
+
+<div id="wrapper">
+<div id="header">
+
 
 <div id="spaceship">
-<img id="spaceship" src="images/Dolphin.jpg" usemap="#locationmap"></div>
-
+</div>
 <div id="recources">
-
-
 </div>
 <div id="rescources">
+
 <br>
 Metal<input id="metal" class="inventoryItem" readonly>
 Wires<input id="wires" class="inventoryItem" readonly><br>
-Plasma<input id="plasma" class="inventoryItem" readonly>
+Food<input id="food" class="inventoryItem" readonly>
 Minerals<input id="minerals" class="inventoryItem" readonly><br>
 Water<input id="water" class="inventoryItem" readonly>
 computer chip<input id="cc" class="inventoryItem" readonly>
 </div>
+<div id="rescources">
 
-<!-- This is for changing the image -->
-<p>
-</p>
+<br>
+
+Base lvl:<input id="Base" class="inventoryItem" readonly>
+Drills:<input id="Drills" class="inventoryItem" readonly><br>
+Wells:<input id="Wells" class="inventoryItem" readonly>
+Farm:<input id="Farm" class="inventoryItem" readonly><br>
+Blueprinters:<input id="BP" class="inventoryItem" readonly>
+</div>
+
 <p>
 		<a href="JavaScript: scavenge()">
 		<button><strong>Scavenge</strong></button></a>
+		<a href="JavaScript: scavenge()">
+		<button><strong>Base Upgrade</strong></button></a>
+		<a href="JavaScript: scavenge()">
+		<button><strong>Craft Drill</strong></button></a>
+		<a href="JavaScript: scavenge()">
+		<button><strong>Make Well</strong></button></a>
+		<a href="JavaScript: scavenge()">
+		<button><strong>Create Farm</strong></button></a>
+		<a href="JavaScript: scavenge()">
+		<button><strong></strong></button></a>
 </p>
-	<p>
-		<input type="button" value="reminder" class="name" onClick="n('')">
-	</p>
-<p>
-	<br>
-	<br>
-	<br>
-		<button onclick="move('cockpit');">Cockpit</button>
-	</p>
-	<p>
-		<button onclick="move('galley');">Galley</button>
-	</p>
-	
-<p>
-		<button onclick="move('engine');">Engine</button>
-	</p>
-	<p>
-		<button onclick="move('space');'">Space View</button>
-	</p>
-<!-- Spaceship Map -->
-	
-<map name="locationmap" id="locationmap">
-<area shape="rect" coords="748,466,750,468" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" /> 
-<area  alt="" title="" onClick="spaceship('cockpit')" shape="poly" coords="320,239,307,262,304,292,313,292,321,294,330,287,332,279,404,248,395,175" style="outline:none;" target="_self"     />
-<area  alt="" title="" onClick="(spaceship('galley')" shape="poly" coords="398,171,405,242,419,249,437,247,452,236,468,233,476,230,474,223,489,217,507,213,524,204,534,198,538,189,543,183,546,173,548,162,548,156,543,148,518,141,506,137,494,147,463,144,441,148,414,162,397,171" style="outline:none;" target="_self"     />
-<area  alt="" title="" onClick="spaceship('engine')" shape="poly" coords="551,152,558,140,601,157,614,157,631,157,642,167,653,184,659,195,656,206,650,213,640,230,630,253,613,264,587,261,581,256,577,235,562,233,555,229,543,226,537,224,534,221,544,197,545,175" style="outline:none;" target="_self"     />
-
-</map>
-
-<!-- Cockpit Map -->
-<map name="CockpitMap" id="CockpitMap">
-<area shape="rect" coords="886,466,888,468" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
-<area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="448,334,330,365,115,348,113,319,140,307,163,300,175,262,189,229,200,230,200,211,211,210,220,221,257,221,261,207,250,185,253,173,271,170,287,171,299,179,289,204,302,225,385,226,407,241,426,284" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="666,347,755,109,870,86,841,254,791,388" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="461,289,529,309,585,162,561,126,502,143" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="624,334,701,124,612,129,555,310" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="309,160,276,164,236,160,229,148,213,141,215,136,214,123,213,46,248,47,254,11,301,15,307,49,324,68,322,96,332,107,351,128,347,143" style="outline:none;" target="_self"     />
-</map>
-
-<!-- Borders -->
+</div>
+</div>
 
 </body>
 </html>

@@ -1,12 +1,12 @@
 // JavaScript Document
 //global variables
+var armor = 0:
 var metal = 0;
 var wires = 0;
-var food = 20;
+var plasma = 0;
 var minerals = 0;
-var water = 10;
+var water = 0;
 var cc = 0;
-var Base = 1:
 
 function move(room) {
 	switch(room) {
@@ -27,7 +27,7 @@ function move(room) {
 
 	//add clicker for resource
 function scavenge() {
-var rnd = Math.ceil(Math.random() * 7);
+var rnd = Math.ceil(Math.random() * 6);
 	switch(rnd) {
 		case 1: // metal
 			metal+=5;
@@ -37,22 +37,23 @@ var rnd = Math.ceil(Math.random() * 7);
 			wires+=3;
 			document.getElementById("wires").value = wires;			
 			break;
-		case 3: // food
-			food+=1;
-			document.getElementById("food").value = food;
+		case 3: // plasma
+			plasma+=1;
+			document.getElementById("plasma").value = plasma;
 			break;
 		case 4: // minerals
 			minerals+=2;
 			document.getElementById("minerals").value = minerals;			
 			break;
 		case 5: // water
-			water+=3;
+			water+=5;
 			document.getElementById("water").value = water;			
 			break;
 			case 6: // cc
 			cc+=1;
 			document.getElementById("cc").value = cc;			
 			break;
+	
 	
 	}
 	
@@ -68,17 +69,22 @@ function move(loc) {
 			break;
 		case "galley":
 			document.getElementById("spaceship").setAttribute("src","images/galley.jpeg");
-			break;
 		case "engine":
 		case "space":
 	}
 }
 
-/*function cooldown(time, button) {
+function cooldown(time, button) {
 	//http://stackoverflow.com/questions/36594962/using-settimeout-to-add-cooldown-time-to-a-button
 	
 }
 
+function clearStartPage(duration) {
+	switch duration 
+	document.body.innerHTML = '' ;
+	)
+	
+}
 function shop(sel) {
 	switch(sel) {
 		case "hovercraft":
@@ -94,4 +100,4 @@ function shop(sel) {
 		case "armor":
 			break;
 	}
-} */
+}

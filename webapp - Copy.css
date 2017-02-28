@@ -58,7 +58,7 @@ img:hover {
 	
 
 
-}
+
 #health {
     background-color: #004BFF ;
     font-size:30px;
@@ -70,10 +70,3 @@ img:hover {
     padding-right: 4px;
     height: 50px;
     float: left;
-}
-	body {
-    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    color:black;
-    background-image: url("images/5y.jpg");
-    background-size: 100%;
-}
