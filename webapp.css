@@ -20,23 +20,34 @@ img:hover {
 	border-color: Silver;
 	padding-left: 4px;
 	padding-right: 4px;
-	height: 110px;
+	height: 130px;
 	float: left;
 }
 
-
-#inventory {
-	background-color: #004BFF;
-	font-size:30px;
+#rescources {
+	background-color: #676666;
+	font-size: 20px;
 	border-style: groove;
 	border-radius:30px;
 	border-widows: 8px;
 	border-color: Silver;
 	padding-left: 4px;
 	padding-right: 4px;
-	height: 50px;
+	height: 130px;
 	float: left;
-	
+}
+
+#tools {
+	background-color: #3F3F3F;
+	font-size: 20px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 130px;
+	float: left;
 }
 #Title {
 	float: center;

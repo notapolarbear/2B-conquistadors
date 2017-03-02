@@ -6,7 +6,11 @@ var food = 20;
 var minerals = 0;
 var water = 10;
 var cc = 0;
-var Base = 1:
+var o2 = 1;
+var drill = 0;
+var well = 0;
+var farm = 0;
+var bp = 0;
 
 function move(room) {
 	switch(room) {
@@ -74,6 +78,12 @@ function move(loc) {
 	}
 }
 
+function disable() {
+	if(minerals >=20 ) {
+		document.getElementById("gas").disabled = false;
+	else {
+		document.getElementById("gas").disabled = true;
+}
 /*function cooldown(time, button) {
 	//http://stackoverflow.com/questions/36594962/using-settimeout-to-add-cooldown-time-to-a-button
 	
