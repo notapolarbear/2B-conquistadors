@@ -12,6 +12,7 @@ img:hover {
 }
 
 #rescources {
+<<<<<<< HEAD
     background-color: #676666 ;
     font-size: 20px;
     border-style: groove;
@@ -22,9 +23,34 @@ img:hover {
     padding-right: 4px;
     height: 130px;
     float: left;
+=======
+	background-color: #676666;
+	font-size: 20px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 130px;
+	float: left;
+>>>>>>> origin/Version-1.0
 }
 
+#rescources {
+	background-color: #676666;
+	font-size: 20px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 130px;
+	float: left;
+}
 
+<<<<<<< HEAD
 
 #tools {
     background-color: #3F3F3F ;
@@ -37,6 +63,19 @@ img:hover {
     padding-right: 4px;
     height: 130px;
     float: left;
+=======
+#tools {
+	background-color: #3F3F3F;
+	font-size: 20px;
+	border-style: groove;
+	border-radius:30px;
+	border-widows: 8px;
+	border-color: Silver;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 130px;
+	float: left;
+>>>>>>> origin/Version-1.0
 }
 #Title {
     float: center;
