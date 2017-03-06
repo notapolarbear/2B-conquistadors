@@ -30,7 +30,7 @@ function scavenge() {
     switch(rnd) {
         
         case 1: // metal
-            metal+=5;
+            metal+=15;
             document.getElementById("metal").value = metal;            
             break;
             
@@ -67,20 +67,18 @@ function scavenge() {
     }
 }
 
-/*
+function add() {
+document.getElementById("Cdrill").innerHTML =Cdrill;
+}
+
+
 function shop(sel) {
     switch(sel) {
-        case "hovercraft":
-            // check if you have enough resources
-            if( metal > 10 ) {
-                // purchase
-                exoskeleton = true;
-                // display image
-                // display: none;
-                document.getElementById("exoskeleton").style.display = "inline";
+        case "Cdrill":
+            if( metal >10 )  {
+                metal-=10;
+				Cdrill++;
             }
             break;
-        case "armor":
-            break;
-    }
-}*/
+       }
+}
