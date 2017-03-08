@@ -37,7 +37,7 @@ function scavenge() {
     switch(rnd) {
         
         case 1: // metal
-            metal+=100000000000000;
+            metal+=3;
             break;
             
         case 2: // wires
@@ -46,22 +46,18 @@ function scavenge() {
             
         case 3: // food
             food+=1;
-       
             break;
             
         case 4: // minerals
-            minerals+=2;
-                        
+            minerals+=2;         
             break;
             
         case 5: // water
-            water+=3;
-                     
+            water+=3;                    
             break;
             
         case 6: // cc
-            cc+=1;
-                        
+            cc+=1;                        
             break;
             
         case 7: // o2
@@ -78,6 +74,7 @@ function scavenge() {
 function update() {
 	document.getElementById("metal").value = metal;
 	document.getElementById("drill").value = drill;
+	document.getElementById("well").value = well;
     document.getElementById("wires").value = wires;
     document.getElementById("o2").value = o2;     
 	document.getElementById("metal").value = metal; 
@@ -89,18 +86,42 @@ function update() {
 
 function shop(sel) {
     switch(sel) {
+		
         case "Cdrill":
             alert("trying to build a drill...");
 			alert("metal: " + metal);
-			if( metal >= 10 )  {
+			if( metal >= 10 ) {
                 metal-=10;
 				drill++;
 				update();
-			}
+				alert("successful!");
+				}
 			else {
-				alert("Error code 385: not enough metal!!!");
+				alert("Computer: Error, 10 metal required!!");
+			}
+			break;
+			
+			
+			
+			
+			
+		    case "Cwell":
+            alert("trying to build a well...");
+			alert("minerals:" + minerals + " drill:" + drill);
+			if( minerals >= 10, drill > 0 ) {
+                minerals-=10;
+				well++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("Computer: Error, 10 metal required!");
 			}
 			break;
 	}
 }
+
+
+
+
 //shop end
