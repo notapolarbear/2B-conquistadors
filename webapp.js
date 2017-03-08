@@ -100,7 +100,7 @@ function shop(sel) {
 				alert("successful!");
 				}
 			else {
-				alert("Computer: Error, 10 metal required!!");
+				alert("Computer: Error, 10 metal required.");
 			}
 			break;
 			
@@ -118,7 +118,7 @@ function shop(sel) {
 				alert("successful!");
 				}
 			else {
-				alert("Computer: Error, 10 metal required!");
+				alert("Computer: Error, 10 minerals and 1 drill required.");
 			}
 			break;
 	}
