@@ -68,7 +68,7 @@ function scavenge() {
 }
 
 function add() {
-document.getElementById("Cdrill").innerHTML =Cdrill;
+document.getElementById("Cdrill").innerHTML = Cdrill;
 }
 
 
@@ -77,7 +77,7 @@ function shop(sel) {
         case "Cdrill":
             if( metal >10 )  {
                 metal-=10;
-				Cdrill++;
+				drill++;
             }
             break;
        }
