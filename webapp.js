@@ -75,6 +75,9 @@ function update() {
 	document.getElementById("metal").value = metal;
 	document.getElementById("drill").value = drill;
 	document.getElementById("well").value = well;
+	document.getElementById("farm").value = farm;
+	document.getElementById("bp").value = bp;
+	document.getElementById("gas").value = gas;
     document.getElementById("wires").value = wires;
     document.getElementById("o2").value = o2;     
 	document.getElementById("metal").value = metal; 
