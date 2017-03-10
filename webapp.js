@@ -111,7 +111,7 @@ function shop(sel) {
 		    case "Cwell":
             alert("trying to build a well...");
 			alert("minerals:" + minerals + " drill:" + drill);
-			if( minerals >= 10, drill > 0 ) {
+			if( minerals >= 9 + drill >= 1 ) {
                 minerals-=10;
 				well++;
 				update();
