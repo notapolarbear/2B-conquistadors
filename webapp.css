@@ -1,50 +1,79 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 img:hover {
-   background-color: #FFF893 ;
+  background-color: #FFF893 ;
 }
-=======
+
 
 #wrapper {
+    
 }
 
+#rescources {
+    background-color: #676666 ;
+    font-size: 20px;
+    border-style: groove;
+    border-radius:30px;
+    border-widows: 8px;
+    border-color: Silver;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 130px;
+    float: left;
+}
+
+
+
+#tools {
+    background-color: #3F3F3F ;
+    font-size: 20px;
+    border-style: groove;
+    border-radius:30px;
+    border-widows: 8px;
+    border-color: Silver;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 130px;
+    float: left;
+}
 #Title {
-	float: center;
-	height: 75px;
-	width: 800px;
-	margin:   20px auto;
-	border-style:solid;
-	border-color:blue;
+    float: center;
+    height: 75px;
+    width: 800px;
+    margin:   20px auto;
+    border-style:solid;
+    border-color:blue;
 }
 
 #monster .health {
-	
-	float: right;
-	height: 50px;
-	width: 400px;
-	margin:   20px auto;
-	border-style:solid;
-	border-color:blue;
-	
-}
-
-
-#player .health {
-float: left;
-	height: 50px;
-	width: 400px;
-	margin:   20px auto;
-	border-style:solid;
-	border-color:blue;
+    
+    float: right;
+    height: 50px;
+    width: 400px;
+    margin:   20px auto;
+    border-style:solid;
+    border-color:blue;
+    
 
 
 }
-
-#story {
+#health {
+   background-color: #004BFF ;
+   font-size:30px;
+   border-style: groove;
+   border-radius:30px;
+   border-widows: 8px;
+   border-color: Silver;
+   padding-left: 4px;
+   padding-right: 4px;
+   height: 50px;
+   float: left;
 }
-/*float: right;
-	height: 412px;
-	width: 180px;
-	margin:   20px auto;*/
-
+    body {
+   font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+   color:black;
+   background-image: url("images/5y.jpg");
+   background-size: 100%;
+}
