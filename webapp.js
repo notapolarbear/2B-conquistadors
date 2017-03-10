@@ -92,7 +92,7 @@ function shop(sel) {
 		
         case "Cdrill":
             alert("trying to build a drill...");
-			alert("metal: " + metal);
+			alert("metal:" + metal);
 			if( metal >= 10 ) {
                 metal-=10;
 				drill++;
@@ -119,6 +119,22 @@ function shop(sel) {
 				}
 			else {
 				alert("Computer: Error, 10 minerals and 1 drill required.");
+			}
+			break;
+			
+			
+			
+			 case "Cfarm":
+            alert("trying to build a farm...");
+			alert("metal:" + metal );
+			if( metal >= 10 ) {
+                metal-=10;
+				drill++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("Computer: Error, 10 metal required.");
 			}
 			break;
 	}
