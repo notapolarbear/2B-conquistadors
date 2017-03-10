@@ -92,24 +92,23 @@ function shop(sel) {
 		
         case "Cdrill":
             alert("trying to build a drill...");
-			alert("metal: " + metal);
-			if( metal >= 10 ) {
-                metal-=10;
+			alert("metal:" + metal + " wires:" + wires);
+			if( metal >= 10 + wires >= 10) {
+               metal-=10;
+				wires-=10;
 				drill++;
 				update();
 				alert("successful!");
 				}
 			else {
-				alert("Computer: Error, 10 metal required.");
+				alert("Computer: Error, 10 metal and 10 wires required.");
 			}
 			break;
 			
 			
 			
-			
-			
 		    case "Cwell":
-            alert("trying to build a well...");
+            alert("trying to build a water filter...");
 			alert("minerals:" + minerals + " drill:" + drill);
 			if( minerals >= 9 + drill >= 1 ) {
                 minerals-=10;
@@ -121,6 +120,61 @@ function shop(sel) {
 				alert("Computer: Error, 10 minerals and 1 drill required.");
 			}
 			break;
+			
+			
+			
+		case "Cfarm":
+            alert("trying to build a farm...");
+			alert("wells:" + well + " minerals:" + minerals + " wires:" + wires + " metal:" + metal);
+			if( minerals >= 10 + well >=1 + wires >=10 + metal >=5 ) {
+                minerals-=10;
+				metal-=5;
+				wires-=10;
+				farm++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("Computer: Error, 10 minerals, 1 water filter, 10 wires, and 5 metal required.");
+			}
+			break;
+			
+			
+			case "Cgas":
+            alert("trying to build a gas compounder...");
+			alert("metal: " + metal + " computer chips:" + cc + " wires:" + wires);
+			if( metal >= 10 + cc >=2 + wires >=15 ) {
+                metal-=10;
+				wires-=15;
+				cc-=2;
+				drill++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("Computer: Error, 10 metal, 2 computer chips, and 15 wires required.");
+			}
+			break;
+			
+			
+			case "Cbp":
+            alert("trying to build a blue printer...");
+			alert("metal:" + metal + " Computer chips:" + cc + "wires:" + wires);
+			if( metal >= 10 + cc >= 4 + wires >= 10 ) {
+                metal-=10;
+				cc-=4;
+				wires-=10;
+				drill++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("Computer: Error, 10 metal, 4 computer chips, and 10 wires required.");
+			}
+			break;
+
+
+
 	}
 }
 
