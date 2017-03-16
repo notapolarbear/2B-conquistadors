@@ -88,6 +88,7 @@ function update() {
 	document.getElementById("minerals").value = minerals;   
 	document.getElementById("cc").value = cc;
 	document.getElementById("mesh").value = mesh;
+	document.getElementById("solar").value = solar;
 }
 
 function shop(sel) {
@@ -198,6 +199,24 @@ function shop(sel) {
 				}
 			else {
 				alert("COMPUTER: Error, 3 metal and 4 wires required.");
+			}
+			break;
+			
+			
+			
+			case "Csolar":
+            alert("trying to build a SOLAR PANEL...");
+			alert("metal:" + metal + " mesh:" + mesh + " wires:" + wires);
+			if( metal >= 2 && mesh >= 2 && wires >= 5 ) {
+               wires-= 5;
+				mesh-=2;
+				metal-=2;
+				solar++;
+				update();
+				alert("successful!");
+				}
+			else {
+				alert("COMPUTER: Error, 10 minerals, 3 mesh, and 1 drill required.");
 			}
 			break;
 	}
