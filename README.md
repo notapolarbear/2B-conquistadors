@@ -3,17 +3,18 @@
 ## Description
 Collector and Story mode game
 
-<!-- 
+
 ## FAQs
-
+<!--
 ### Insert question here?
 Insert answer here.
 
 ### Insert question here?
 Insert answer here.
-
+-->
 ## Changelog
-
+welcome to version 1.1! we have added out cool things, such as a scavenge button and a drill and well button.
+<!--
 ### Version 1.1
 
 #### Bug fixes
