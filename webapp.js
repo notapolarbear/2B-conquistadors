@@ -101,6 +101,7 @@ function shop(sel) {
 				drill++;
 				update();
 				alert("successful!");
+				
 				}
 			else {
 				alert("COMPUTER: Error, 10 metal required.");
@@ -209,14 +210,26 @@ setInterval(function() {
 function bonusCalc() {
 	// drills
    var drillBonus = 0;
-   drillBonus += drill * 1;
+   drillBonus += drill * 3;
    metal += drillBonus;
+    var mineralBonus = 0;
+   mineralBonus += drill * 1;
+   minerals += mineralBonus;
    // water filters
    var waterBonus = 0;
-   waterBonus += well * 1;
+   waterBonus += well * 2;
    water += waterBonus;
+   // farm
    var farmBonus = 0;
-   farmBonus += farm *1;
+   farmBonus += farm *2;
+   food += farmBonus;
+   // bp
+   var bpBonus = 0;
+   bpBonus += bp * 1;
+   cc += bpBonus;
+   var gasBonus = 0;
+   gasBonus += gas * 1;
+   o2 += gasBonus ;
    update();
 }
 
