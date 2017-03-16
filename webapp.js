@@ -101,6 +101,7 @@ function shop(sel) {
 				drill++;
 				update();
 				alert("successful!");
+				document.getElementById("image").innerHTML="<img src=images/drill.jpeg>"
 				
 				}
 			else {
