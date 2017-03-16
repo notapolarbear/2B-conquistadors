@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-img:hover {
-  background-color: #FFF893 ;
-}
-
-
 #wrapper {
     
 }
@@ -20,7 +14,7 @@ img:hover {
     border-color: Silver;
     padding-left: 4px;
     padding-right: 4px;
-    height: 130px;
+    height: 140px;
     float: left;
 }
 
@@ -35,14 +29,14 @@ img:hover {
     border-color: Silver;
     padding-left: 4px;
     padding-right: 4px;
-    height: 130px;
+    height: 180px;
     float: left;
 }
 #Title {
     float: center;
     height: 75px;
     width: 800px;
-    margin:   20px auto;
+    margin: 20px auto;
     border-style:solid;
     border-color:blue;
 }

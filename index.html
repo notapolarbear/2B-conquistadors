@@ -30,25 +30,35 @@ Minerals<input id="minerals" class="inventoryItem" readonly><br>
 Water<input id="water" class="inventoryItem" readonly>
 Computer chip<input id="cc" class="inventoryItem" readonly><br>
 Oxygen tanks:<input id="o2" class="inventoryItem" readonly>
+Mesh:<input id="mesh" class="inventoryItem" readonly>
 </div>
 
 <div id="tools">
 <br>
-Drills:<input id="drill" class="inventoryItem" readonly>
-Wells:<input id="well" class="inventoryItem" readonly><br>
-Farms:<input id="farm" class="inventoryItem" readonly>
+
+Water Filters:<input id="well" class="inventoryItem" readonly><br>
+Automated Farms:<input id="farm" class="inventoryItem" readonly><br>
 Blue Printers:<input id="bp" class="inventoryItem" readonly><br>
-Gas Compounders:<input id="gas" class="inventoryItem" readonly>
+Gas Compounders:<input id="gas" class="inventoryItem" readonly><br>
+Solar Panels:<input id="solar" class="inventoryItem" readonly><br>
+Drills:<input id="drill" class="inventoryItem" readonly>
+
 </div>
 
     <p>
 		<button id="scavenge" onClick="scavenge();">scavenge</button>
 		<button id="Cgas" onClick="shop('Cgas');">Contruct Gas Compounders</button>
         <button id="Cdrill" onClick="shop('Cdrill');">Craft Drill</button>
-        <button id="Cwell" onClick="shop('Cwell');">Make Well</button>
+        <button id="Cwell" onClick="shop('Cwell');">Make Water Filter</button>
         <button id="Cfarm" onClick="shop('Cfarm');">Create Automated Farm</button>
         <button id="Cbp" onClick="shop('Cbp');">Fabricate Blue Printer</button>
+		<button id="Cmesh" onClick="shop('Cmesh');">Scramble mesh</button>
+		<button id="Csolar" onClick="shop('Csolar');">Fashion Solar Panel</button>
+		
     </p>
+<div id="image">
+<img src ="images/empty.png" alt= "images">
+</div>
 
 </div>
 </div>
