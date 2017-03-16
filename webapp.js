@@ -240,8 +240,6 @@ function decay() {
   water-=Math.random()*3;
   o2-=1;
   food-=Math.random()*5;
-  
-  
   update();
 }
 
