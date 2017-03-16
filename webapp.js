@@ -232,6 +232,16 @@ function bonusCalc() {
    o2 += gasBonus ;
    update();
 }
-
-
 //shop end
+
+//supply deplete
+setInterval(decay,300000);
+function decay() {
+  water-=Math.random()*3;
+  o2-=1;
+  food-=Math.random()*5;
+  
+  
+  update();
+}
+
