@@ -180,14 +180,14 @@ function shop(sel) {
 				alert("successful!");
 				}
 			else {
-				alert("COMPUTER: Error, 10 metal, 20 sires, and 5 computer chipsrequired.");
+				alert("COMPUTER: Error, 10 metal, 20 sires, and 5 computer chips required.");
 			}
 			break;
 			
 			
 			
 			case "Cmesh":
-            alert("trying tomake MESH...");
+            alert("trying to make MESH...");
 			alert("metal:" + metal + " wires:" + wires );
 			if( metal >= 3 && wires >=4 ) {
                metal-=3;
@@ -238,9 +238,9 @@ function bonusCalc() {
 //supply deplete
 setInterval(decay,300000);
 function decay() {
-  water-=Math.random()*3;
+  water-=Math.ceil(Math.random()*3);
   o2-=1;
-  food-=Math.random()*5;
+  food-=Math.ceil(Math.random()*5);
   update();
 }
 
