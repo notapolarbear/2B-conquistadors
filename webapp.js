@@ -131,7 +131,7 @@ function shop(sel) {
 			case "Cfarm":
             alert("trying to build an AUTOMATED FARM...");
 			alert("mesh:" + mesh + " Computer chips:" + cc + " wires:" + wires + " wells:" + well);
-			if( metal >= 10 && cc >= 2 && wires >= 5 && well >= 1 ) {
+			if( mesh >= 10 && cc >= 2 && wires >= 5 && well >= 1 ) {
                mesh-=10;
 				cc-=2;
 				wires-=5;
@@ -215,6 +215,8 @@ function bonusCalc() {
    var waterBonus = 0;
    waterBonus += well * 1;
    water += waterBonus;
+   var farmBonus = 0;
+   farmBonus += farm *1;
    update();
 }
 
