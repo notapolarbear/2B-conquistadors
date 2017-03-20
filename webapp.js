@@ -103,7 +103,7 @@ function shop(sel) {
 				drill++;
 				update();
 				alert("successful!");
-				document.getElementById("image").innerHTML="<img src=images/drill.jpeg>"
+				document.getElementById("image").innerHTML="<>"
 				
 				}
 			else {
@@ -174,7 +174,7 @@ function shop(sel) {
 			case "Cbp":
             alert("trying to build a BLUE PRINTER...");
 			alert("metal:" + metal + " wires:" + wires + " computer ships:" + cc + " Solar Panels:" +solar );
-			if( metal >= 10 && wires >= 30 && cc >= 5 ) {
+			if( metal >= 10 && wires >= 30 && cc >= 5 && solar >=1 ) {
                metal-=10;
 			    wires-=30;
 		 	    cc-=5;
@@ -183,7 +183,7 @@ function shop(sel) {
 				alert("successful!");
 				}
 			else {
-				alert("COMPUTER: Error, 10 metal, 20 sires, and 5 computer chips required.");
+				alert("COMPUTER: Error, 10 metal, 20 sires, 1 solar panel, and 5 computer chips required.");
 			}
 			break;
 			
