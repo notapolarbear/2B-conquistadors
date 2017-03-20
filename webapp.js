@@ -10,6 +10,7 @@ var cc = 0;
 var o2 = 5;
 var mesh = 0;
 //tools
+var solar = 0;
 var gas =0;
 var drill = 0;
 var well = 0;
@@ -193,7 +194,7 @@ function shop(sel) {
 			if( metal >= 3 && wires >=4 ) {
                metal-=3;
 			    wires-=4;
-				mesh++;
+				mesh+=2;
 				update();
 				alert("successful!");
 				}
