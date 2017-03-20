@@ -134,17 +134,18 @@ function shop(sel) {
 			
 			case "Cfarm":
             alert("trying to build an AUTOMATED FARM...");
-			alert("mesh:" + mesh + " Computer chips:" + cc + " wires:" + wires + " wells:" + well);
-			if( mesh >= 10 && cc >= 2 && wires >= 5 && well >= 1 ) {
+			alert("mesh:" + mesh + " Computer chips:" + cc + " wires:" + wires + " wells:" + well + " Solar Panels:" + solar );
+			if( mesh >= 10 && cc >= 2 && wires >= 5 && well >= 1 && solar >= 1 ) {
                mesh-=10;
 				cc-=2;
+				solar-=1;
 				wires-=5;
 				farm++;
 				update();
 				alert("successful!");
 				}
 			else {
-				alert("COMPUTER: Error, 10 mesh, 2 computer chips, 1 well, and 5 wires required.");
+				alert("COMPUTER: Error, 10 mesh, 2 computer chips, 1 well, 1 solar panel, and 5 wires required.");
 			}
 			break;
 			
@@ -172,7 +173,7 @@ function shop(sel) {
 			
 			case "Cbp":
             alert("trying to build a BLUE PRINTER...");
-			alert("metal:" + metal + " wires:" + wires + " computer ships:" + cc );
+			alert("metal:" + metal + " wires:" + wires + " computer ships:" + cc + " Solar Panels:" +solar );
 			if( metal >= 10 && wires >= 30 && cc >= 5 ) {
                metal-=10;
 			    wires-=30;
