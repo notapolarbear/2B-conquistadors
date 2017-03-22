@@ -103,7 +103,7 @@ function shop(sel) {
 				drill++;
 				update();
 				alert("successful!");
-				document.getElementById("image").innerHTML="images/drill.png";
+				document.getElementById("drillImage").hidden = false;
 				
 				}
 			else {
