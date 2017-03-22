@@ -1,6 +1,6 @@
 
-//global variables
-//rescources
+//Global variables
+//Rescources
 var metal = 0;
 var wires = 0;
 var food = 20;
