@@ -32,6 +32,13 @@
     height: 180px;
     float: left;
 }
+
+#Instructions {
+	float: right;
+	padding-left: 4px;
+	padding-right: 10px;
+}
+
 #Title {
     float: center;
     height: 75px;
@@ -70,4 +77,14 @@
    color:black;
    background-image: url("images/5y.jpg");
    background-size: 100%;
+}
+#Instructions {
+	background-color: rgba(52,252,247,1.00);
+	marin-bottom: 4px;
+	border:double;
+	border-radius:8px;
+	border-color:blue;
+	padding-left:4px;
+	padding-right:4px;
+	padding:4px;
 }
