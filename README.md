@@ -38,3 +38,4 @@ This is our initial release. We hope you enjoy it!
 ## Credits
 * Frank Dininno
 * Zack Zhuang
+* Steven Holley
