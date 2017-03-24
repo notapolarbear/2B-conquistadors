@@ -56,7 +56,7 @@ function scavenge() {
             break;
             
         case 5: // water
-            water+=3;                    
+            water+=1;                    
             break;
             
         case 6: // cc
@@ -264,4 +264,3 @@ function decay() {
   food-=Math.ceil(Math.random()*5);
   update();
 }
-
